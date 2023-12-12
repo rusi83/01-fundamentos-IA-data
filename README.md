@@ -22,4 +22,4 @@ El curso está dictado por los prefesores [Carlos Alarcón](https://platzi.com/p
 - Comprende qué es **IA** y su **impacto en el mundo.**
 
 ## Acceso al resumen
-Click en el siguiente enlace👉
+Click en el siguiente enlace👉 [Resumen Fundamentos de Data](summary.md)
