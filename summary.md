@@ -166,3 +166,54 @@ Es como enseñarle a un perro a hacer trucos a cambio de golosinas: cuando hace 
 - **Robótica:** Asociación de movimientos para automatizar una tarea.
 - **IA generativa:** Se clasifica lo que ya existe y puedo generar algo nuevo.
 
+## 💾Data science y sub usos de IA
+
+### ¿Qué es Data Science?
+
+![ai7](https://i.imgur.com/xQZ9QXt.png)
+
+Ciencia de Datos = Matemáticas y estadística + Conocimiento del negocio + Programación
+
+La ciencia de datos es un **campo interdisciplinario** que utiliza técnicas y métodos estadísticos, computacionales y matemáticos para **analizar y extraer conocimiento de datos** en bruto. Es una disciplina que se enfoca en la generación de conocimiento a partir de la información, con el objetivo de **resolver problemas** y **tomar decisiones informadas.**
+
+Implica el proceso de **adquisición**, **almacenamiento**, **procesamiento**, **análisis** y **visualización de datos**, con el fin de obtener **información útil y relevante.**
+
+| Data science | Inteligencia artificial |
+| --- | --- |
+| Proceso para analizar datos y mejorar procesos, optimizar decisiones, predecir eventos futuros, desarrollar nuevas soluciones para problemas complejos y crear productos con datos. | Capacidad de sistemas informáticos para realizar tareas que normalmente requerirían la inteligencia humana, como el aprendizaje, la resolución de problemas, el reconocimiento de patrones y la toma de decisiones. |
+
+<aside>
+📌 La ciencia de datos no siempre utiliza IA para darle valor a los datos y encontrar insights, pero sí es una herramienta más del repertorio de una data scientist.
+
+</aside>
+
+### Subusos
+
+#### Clasificación (grupos)
+
+![ai8](https://i.imgur.com/XUewrBd.png)
+
+#### Regresión (predicción numérica)
+
+La regresión o predicción numéricas es una técnica de análisis estadístico que se utiliza para predecir o estimar un valor numérico desconocido a partir de un conjunto de datos previamente observados. Por ejemplo, qué calificación podría obtener si estudio n horas.
+
+![ai9](https://i.imgur.com/Nfoz4hB.png)
+
+La regresión numérica analiza la relación entre dos o más variables, utilizando una variable como predictor *(independiente)* y otra como respuesta *(dependiente)*. Se construye un modelo matemático que permite predecir la variable de respuesta a partir de la variable predictor.
+
+#### Un dataset (conjunto de datos)
+
+![ai10](https://i.imgur.com/yL3Hx5o.png)
+
+Es una colección o conjunto de datos organizados y estructurados de manera que puedan ser analizados y procesados por una computadora o por una persona.
+
+Los datasets son de diferentes tipos y pueden contener registros de ventas, datos de sensores, registros médicos, datos de redes sociales, etc. Cada dataset suele incluir múltiples variables o características, que pueden ser numéricas o categóricas y estar relacionadas entre sí de diversas maneras.
+
+#### Split  (partir los datos)
+
+![ai11](https://i.imgur.com/XPE1Xss.png)
+
+Split se refiere a la división de un conjunto de datos en dos o más subconjuntos, de manera que se puedan utilizar para diferentes propósitos.
+
+El tipo de división más común es el "train-test", donde se divide el conjunto de datos en dos subconjuntos: uno para entrenar un modelo de aprendizaje automático y otro para probarlo. El subconjunto de entrenamiento se utiliza para ajustar los parámetros del modelo, mientras que el subconjunto de prueba evalúa su desempeño en datos no utilizados en el entrenamiento.
+
