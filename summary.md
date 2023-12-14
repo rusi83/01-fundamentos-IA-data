@@ -10,6 +10,7 @@
 ## Tabla de Contenido
 
 
+
 # Curso Fundamentos de Data
 
 ## 👽¿Qué es inteligencia artificial?
