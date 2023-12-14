@@ -9,6 +9,7 @@
 
 ## Tabla de Contenido
 
+
 # Curso Fundamentos de Data
 
 ## 👽¿Qué es inteligencia artificial?
@@ -506,5 +507,384 @@ Incluso si estamos en la zona segura o difícil de automatizar, esto no signific
 ### Lectura recomendada
 
 [Cheatsheet: "AI Superpowers" by Kai-Fu Lee](https://muhanzhang.com/ai-superpowers-lee/)
+
+## 🌲Árboles de juego: la escuela de Turing
+
+### La inteligencia como solucionador de problemas ✅
+
+Simplificar la inteligencia como una habilidad para resolver problemas, como en los juegos.
+
+### AlphaGo ⚫⚪
+
+**AlphaGo** es un programa de IA desarrollado por *DeepMind*, que utilizó **redes neuronales convolucionales** para analizar el tablero de Go y determinar la probabilidad de ganar para cada jugada. Luego, combinó esto con el algoritmo **Monte Carlo Tree Search** para encontrar la mejor **estrategia** para **vencer al campeón mundial** en una competición oficial. AlphaGo fue el **primer programa en lograr este hito** en el mundo del juego de mesa Go.
+
+### Árboles de búsqueda (juego) 
+
+Los **árboles de juego** son una técnica utilizada en IA para **modelar juegos complejos y estratégicos,** como el ajedrez o el póker. Un árbol de juego es una **estructura de datos** que representa **todas las posibles jugadas y resultados** de un juego en una serie de nodos y ramas. 
+
+Cada **nodo** del árbol representa un **estado del juego**, mientras que cada **rama** representa una **jugada posible** que lleva a un nuevo estado del juego. Por lo tanto, al tener el árbol completo, podemos **determinar la mejor jugada posible** para un jugador en cada estado del juego.
+
+> *Los árboles de búsqueda se usan para modelar **juegos complejos** y en otros contextos de **toma de decisiones** como: **estrategias militares**, **finanzas** y **planificación de proyectos**.*
+> 
+
+<aside>
+📌 En resumen, los árboles de juego son una herramienta muy útil para mejorar en juegos estratégicos. Te ayudan a visualizar todas las opciones posibles y sus resultados, para que puedas tomar decisiones estratégicas y encontrar la mejor manera de ganar. ¡Es como tener un mapa detallado de todas las posibles jugadas, para que puedas planear tus movimientos con anticipación! 🌳🎲🏆
+
+## ❄️Regresión lineal simple
+
+### Regresión lineal simple
+
+Técnica para predecir un valor desconocido (variable dependiente) A partir de un valor relacionado
+conocido (variable independiente). 
+
+### Funcionamiento de la regresión lineal simple
+
+La **regresión lineal** simple asume que la **relación entre las dos variables** se puede modelar mediante una **línea recta.** Por lo que debemos hacer es identificar un **función lineal** ( y = ax + b ) que se ajuste lo mejor posible a los datos disponibles (*con cierto margen de error*) y con ello poder estimar el valor aproximado de la variable “y” a partir de un valor específico de “x”. 
+
+Para encontrar la ecuación de la línea recta, se utiliza un algoritmo de optimización que **minimiza la suma de los errores al cuadrado** entre los valores reales de Y y los valores predichos por la línea recta. La pendiente y la intersección de la línea recta se ajustan iterativamente hasta que se minimiza la suma de los errores al cuadrado.
+
+Es decir, visualmente en el plano cartesiano, la línea recta va a estar lo más apegada posible a los valores o puntos. Es decir, la mayoría de puntos van a estar dentro de la recta o muy cerca a ella.
+
+**Ejemplo precio del valor de un plan:**
+
+Variable “y”: precio del plan en $
+
+Variable “x”: cantidad de megas (datos) consumidos
+
+Constante “a”: pendiente de la recta *(puede ser positiva o negativa)*
+
+Constante “b”: mínimo valor a pagar *(intercepto con el eje Y)*
+
+Podemos evaluar la variable “x” en la función lineal para obtener el valor de “y”. Para esto nos rive la regresión lineal, para **predecir valores continuos** y realizar **análisis de tendencias.**
+
+**Correlación positiva:** 
+
+También llamada **variables directamente proporcionales.** Si sube la una, la otra también.
+
+**Por ejemplo:** a mayor temperatura (x), mayores ventas de cerveza (y)
+
+ **Correlación negativa:**
+
+ ****También llamada **variables inversamente proporcionales.** Si una sube, la otra baja *(y viceversa)*.
+
+**Por ejemplo:** a mayor precio (x), menores ventas de una cerveza (y)
+
+**Correlación nula:** 
+
+Es cuando no hay relación entre las dos variables. 
+
+**Por ejemplo**, no hay relación entre el color de los ojos (x) y la estatura (y).
+
+<aside>
+📌 **La regresión NO prueba causalidad** *(solo muestra la relación entre dos variables).*
+
+</aside>
+
+**Causalidad:**
+
+Implica que **un hecho esté creando otro.** Por ejemplo, si una planta está haciendo la fotosíntesis es porque ha recibido la luz del sol: son 2 hechos causales, porque ***uno no puede suceder sin el otro.***
+
+**Regresión:**
+
+Nos muestra la **relación entre dos variables,** pero ***no la causa de una hacia la otra.***
+
+La regresión lineal simple es una técnica para predecir un valor desconocido a partir de un valor relacionado conocido. Se asume que la relación entre las dos variables se puede modelar mediante una línea recta, y se utiliza un algoritmo de optimización para minimizar la suma de los errores al cuadrado entre los valores reales y los valores predichos. La regresión lineal no prueba causalidad, sino que muestra la relación entre dos variables.
+</aside>
+
+- La intuición es algo que aplican los jugadores y forma parte de la inteligencia.
+- **Conceptos claves:** cadenas de decisiones, probabilidad, machine learning.
+
+## 🔋Árboles de decisión
+
+### Árboles de decisión en IA
+
+Los árboles de decisión son una técnica de IA que se utiliza para **modelar decisiones complejas** basadas en **múltiples criterios**. Un árbol de decisión es una estructura de datos que representa **todas las posibles decisiones** y **resultados** en una serie de **nodos** y **ramas**. 
+
+Cada **nodo** del árbol representa un **punto de decisión** en el proceso, mientras que cada **rama** representa una **opción posible** que lleva a un **nuevo nodo de decisión** o a un **resultado final**. Los algoritmos de construcción de árboles de decisión se utilizan para analizar los datos y construir árboles que representan las decisiones óptimas en función de múltiples criterios.
+
+### Aplicaciones de los árboles de decisión
+
+- Toma de **decisiones empresariales**
+- El **diagnóstico médico**
+- La **detección de fraude**.
+- Decisiones personales
+
+![ai30](https://i.imgur.com/NUcN9Yt.png)
+
+#### Ejemplo:
+
+Un ejemplo de árbol de decisión es la detección de spam en correos electrónicos. El conjunto de datos de entrenamiento incluye variables de entrada, como el remitente, el asunto y el contenido del correo electrónico, y una variable de salida que indica si el correo es spam o no. El algoritmo construye un árbol de decisión que modela la relación entre las variables de entrada y la variable de salida, y luego se utiliza para clasificar nuevos correos como spam o no spam.
+
+<aside>
+📌 Una forma de entenderlo a grandes rasgos es pensar en un árbol de decisión como una estructura representable con un diagrama de flujo que empieza en una pregunta (condicional) y, en función de la respuesta, avanza por un camino de múltiples ifs anidados hasta llegar a las hojas finales, que son todos los resultados o decisiones tomadas.
+
+</aside>
+
+## 😁Hugging Face
+
+Hugging Face, Inc. es una empresa estadounidense que desarrolla herramientas para construir aplicaciones utilizando aprendizaje automático. Es más notable por su biblioteca Transformers construida para aplicaciones de procesamiento de lenguaje natural y su plataforma que permite a los usuarios compartir modelos y conjuntos de datos de aprendizaje automático.
+
+La plataforma de Hugging Face conecta la investigación y la ciencia, permitiendo una fácil operatividad. Proporciona una API de inferencia y una plataforma de ajuste llamada AutoTrain. Construye y entrena modelos de procesamiento del lenguaje natural (NLP) y los comparte con la comunidad de código abierto. 
+
+Actualmente tiene más de 30,000 modelos públicos con soporte para diferentes tareas en diferentes dominios como visión artificial, procesamiento de lenguaje natural, audio y más. También hay modelos para más de 180 idiomas y tiene integración con docenas de bibliotecas.
+
+![ai31](https://i.imgur.com/Erq9USd.png)
+
+**Problems solvers:** Thousands of creators work as a community to solve Audio, Vision, and Language with AI.
+
+
+Hugging Face es una plataforma avanzada de NLP y aprendizaje automático para usuarios de todos los niveles que trabajando juntos como comunidad para resolver problemas de Audio, Visión y Leeguaje con IA.
+
+## 🌐Hugging Face 101: Spaces
+
+![ai32](https://i.imgur.com/K3DL4mi.png)
+
+Los Spaces de Hugging Face son una función de colaboración diseñada para simplificar el trabajo en equipo en proyectos de procesamiento del lenguaje natural. Ofrecen herramientas y recursos para la gestión de versiones, la implementación de modelos y la colaboración en tiempo real
+
+Explora los spaces, hay cosas muy chéveres.
+
+[VToonify - a Hugging Face Space by PKUWilliamYang](https://huggingface.co/spaces/PKUWilliamYang/VToonify)
+
+[Riffusion • Spectrogram To Music - a Hugging Face Space by fffiloni](https://huggingface.co/spaces/fffiloni/spectrogram-to-music)
+
+[InstructPix2Pix - a Hugging Face Space by timbrooks](https://huggingface.co/spaces/timbrooks/instruct-pix2pix)
+
+## 📈¿Por qué es importante el álgebra lineal para IA?
+
+### ¿Por qué Álgebra Lineal?
+
+El álgebra lineal es una rama de las matemáticas que se enfoca en el estudio de los **sistemas de ecuaciones lineales** y las **transformaciones lineales**. Esta rama de las matemática es especialmente útil porque nos permite **operar** con **tensores** *(matrices y vectores).*
+
+**Hay dos aspectos claves por las que necesitamos Álgebra Lineal:**
+
+- **Representación natural de los objetos.**
+    - En muchas ocasiones necesitamos representar los objetos como tensores.
+- **Transformaciones y efectos sobre objetos.**
+    - Una **imagen** 🖼️ ****es una matriz de pixeles, representados por medio de números.
+        - Para transformar una imágen realizamos transformaciones sobre esas matrices.
+    - El **sonido** 🔊 *(espectograma)* se puede representar de forma matemática como un arreglo de pares ordenados *(tiempo, amplitud.)*
+    - El **texto** 💬 se **representa** como un **tensor de** **números** *(base de los programas de PLN).*
+
+**El Álgebra Linear dentro del Machine Learning nos sirve para:**
+
+1. **Representación de datos:** Muchas aplicaciones de IA y ML procesan grandes cantidades de datos que se representan como **matrices** o **vectores**. El álgebra lineal proporciona las herramientas para manipular y transformar estos datos en formas útiles para el análisis.
+2. **Aprendizaje automático:** Los algoritmos de aprendizaje automático se basan en la **optimización de funciones objetivo**, que se pueden expresar en términos de ecuaciones matriciales. El álgebra lineal permite la manipulación y resolución de estas ecuaciones para optimizar el rendimiento del modelo.
+3. **Redes neuronales:** Las redes neuronales son un tipo de modelo de aprendizaje profundo que se basan en la **combinación lineal de entradas ponderadas** para generar una salida. El álgebra lineal proporciona las herramientas para la **implementación** y **optimización** de las **operaciones matriciales** que subyacen en la computación de las **redes neuronales.**
+4. **Análisis de componentes principales:** El análisis de componentes principales **(PCA)** es una técnica de **reducción de dimensionalidad** que se utiliza para **simplificar conjuntos de datos** complejos. Se basa en la transformación lineal de la matriz de covarianza de los datos. El álgebra lineal es esencial para la implementación y comprensión del PCA.
+
+<aside>
+📌 **Los cimientos son a un edificio, lo que la algebra lineal es a la IA.**
+
+</aside>
+
+> En resumen, el álgebra lineal es importante para la IA y el ML porque proporciona las herramientas matemáticas necesarias para representar y manipular datos, optimizar modelos, implementar redes neuronales y reducir la dimensionalidad de los datos.
+
+## 📐¿Por qué es importante el cálculo para IA?
+
+### ¿Por qué cálculo?
+
+- Hacer **predicciones**/**inferencias**.
+- Las predicciones se hacen **optimizando**.
+    - Optimizamos funciones encontrando sus **puntos máximos** y **mínimos**.
+    - Para **optimizar** una función aplicamos la **derivada**.
+    - Estas optimizaciones siempre tienen un **grado de error** o **incertidumbre**.
+
+El proceso de regresión lineal es encontrar la curva (función lineal) que mejor describe a los números, es decir aquella que minimiza el error cuadrático total. Para optimizar el error, se busca que sea el MÍNIMO posible y allí entra en juego la derivada.
+
+### El Cálculo
+
+El cálculo es una rama de las matemáticas que se enfoca en el estudio del cambio y la continuidad. Es una herramienta fundamental para la inteligencia artificial (IA) y el aprendizaje automático (ML) por las siguientes razones:
+
+#### Optimización de funciones
+
+Los modelos de IA y ML a menudo se basan en la optimización de funciones objetivo. El cálculo proporciona las herramientas para encontrar los puntos críticos de una función, como los mínimos y máximos, y para determinar si estos puntos son puntos de inflexión o puntos de silla. Esto es importante para encontrar los valores óptimos de los parámetros del modelo.
+
+#### Derivadas e integrales
+
+Las derivadas e integrales son conceptos fundamentales del cálculo y se utilizan en muchas aplicaciones de IA y ML. Por ejemplo, las derivadas se utilizan en el cálculo del gradiente de una función objetivo, que es esencial en el aprendizaje automático basado en gradientes, como el aprendizaje profundo. Las integrales se utilizan en la estimación de densidades de probabilidad y en la inferencia bayesiana.
+
+#### Series de Taylor
+
+Las series de Taylor son una herramienta importante en el análisis y la aproximación de funciones complejas. Se utilizan en muchas aplicaciones de IA y ML, como el cálculo de gradientes de funciones no diferenciables y la aproximación de funciones de pérdida.
+
+#### Redes neuronales
+
+Las redes neuronales son un tipo de modelo de aprendizaje profundo que se basan en la combinación lineal de entradas ponderadas para generar una salida. El cálculo proporciona las herramientas para la implementación y optimización de las operaciones matemáticas que subyacen en la computación de las redes neuronales.
+
+<aside>
+📌 El **Álgebra Lineal** nos permite **representar** los **objetos** sobre los cuales voy a hacer **inferencias** o **predicciones**; y para ello, necesito realizar un proceso de **optimización** (que requiere de **cálculo** - **derivadas**). La **optimización no es perfecta**, siempre hay un grado de **error** o **incertidumbre** (lo cuál nos lleva al campo de la **probabilidad**).
+
+</aside>
+
+## 📏¿Por qué es importante la estadística y probabilidad para IA?
+
+### Estadística y medición de la incertidumbre
+
+A pesar de la optimización del modelo de IA, siempre hay una incertidumbre en las predicciones realizadas. La estadística es una rama de las matemáticas que se centra en la medición de la incertidumbre en las predicciones. La estadística es esencial en la IA porque nos ayuda a comprender la calidad de las predicciones realizadas y a determinar la confianza que podemos tener en ellas.
+
+En el proceso de inferencia que se realiza con Machine Learning, siempre existe un grado de incertidumbre debido al gran volumen de datos que se manejan. Para medir la incertidumbre y hacer inferencias sobre los datos, se utilizan la Estadística y la Probabilidad.
+
+La Estadística Descriptiva se utiliza para analizar y describir los datos a través de medidas como la media, mediana y desviación estándar. Mientras que la Estadística Inferencial se utiliza para hacer inferencias sobre los datos y validar las hipótesis estadísticas.
+
+### Probabilidad y modelado de incertidumbre
+
+La probabilidad es una rama de las matemáticas que se utiliza para modelar la incertidumbre en la IA. La probabilidad es importante en la IA porque permite estimar la probabilidad de que una predicción sea correcta. Además, permite evaluar la incertidumbre en los resultados y tomar decisiones en consecuencia.
+
+Los modelos de ML nos arrojan resultados en términos probabilísticos.
+
+### Conclusión
+
+En resumen el álgebra lineal es una herramienta fundamental en el campo de la inteligencia artificial y el aprendizaje automático. Nos permite modelar matemáticamente entidades y fenómenos del mundo real, y utilizar esta modelización para hacer predicciones y tomar decisiones. El cálculo nos ayuda a optimizar los modelos y a minimizar los errores, mientras que la estadística y la probabilidad nos permiten medir la incertidumbre y evaluar la calidad de las predicciones. En conjunto, estas disciplinas matemáticas nos proporcionan un enfoque riguroso y efectivo para abordar los problemas de la inteligencia artificial y construir sistemas de aprendizaje automático avanzados.
+
+---
+
+### Resumen Global:
+
+Algebra lineal, cálculo y la estadística la santisima trinidad detrás de unos buenos modelos. La primera de ellas nos permite traer al mundo de los números la entidad, la segunda para optimizar y disminuir los errores y la tercera medir la incertidumbre (probabilidad). Conceptos claros y directos. Muchas gracias.
+
+**Álgebra para IA:**
+
+Permite estructurar de forma numérica los objetos a utilizar en el estudio y así entrenar algoritmos.
+
+**Cálculo para la IA:**
+
+Es la herramienta matemática con la que se puede optimizar un proceso de predicción e inferencia. De modo que minimiza los errores en la predicción, mejorando así la precisión del modelo
+
+**Probabilidad y Estadística:**
+
+El proceso de inferencia tiene incertidumbre sobre grandes volúmenes de datos. La probabilidad y estadística nos ayuda a definir y reducir esas incertidumbres.
+
+## 📌Ética en inteligencia artificial: contexto y definiciones
+
+### Ética o filosofía moral
+
+- **Reflexión** sobre la moral (nuestras creencias, prácticas y juicios morales).
+- Son los **conocimientos** derivados de la investigación de la **conducta humana**.
+
+### Moral
+
+Normas que regulan y determinan la forma en la que los seres humanos se conducen socialmente.
+
+- Estas normas son impuestas por los estados o por el contexto cultural, por lo que es una reflexión para poder vivir en conjunto
+
+### Ética de los datos ⚖
+
+**Cuál es la manera buena y correcta de usar los datos:**
+
+1. ¿**Quién** recolecta la información?
+2. ¿**Por qué** se recolecta esta información?
+3. ¿**Cómo** se recolecta la información?
+4. ¿Cuál es el **propósito**?
+
+<aside>
+📌 Los datos los generan personas → Los datos son personas *(requieren especial cuidado)*
+
+</aside>
+
+### Responsabilidades
+
+1. **Protección** y **privacidad**.
+2. **Informar** y **empoderar** al usuario.
+3. Ofrecer **bien público.**
+
+<aside>
+📌 La ética de los datos busca la justicia, responsabilidad y respeto a los derechos humanos.
+
+</aside>
+
+### 1. Datos
+
+- Privacidad
+- Confianza
+- Transparencia
+
+### 2. Algoritmos
+
+- Responsabilidad
+- Diseño ético
+- Validación ética
+
+### 3. Aplicaciones
+
+- Código deontológico *(normativas éticas)*
+- Consentimiento
+- Privacidad
+
+## 💣Dilemas éticos en inteligencia artificial
+
+- Los **datos** están presentes **en todos los sectores** de la sociedad y la economía.
+- Los modelos **afectan la vida** de las personas.
+- Una **mala** decisión en la **definición** de un **algoritmo** puede causar **daños a gran escala**.
+- **Errores** en la **definición** implican una réplica del **error en la predicción.**
+
+Si aquello que conocemos ya está sesgado, lo que vamos a predecir también lo replicará y nos aleja de la verdad. Si los datos de entrenamiento son sesgados, el algoritmo también lo será *(ver calidad y la diversidad de los datos)*.
+
+<aside>
+📌 **RESUMEN: La IA es una herramienta poderosa con un impacto significativo en la sociedad. Sin embargo, también plantea dilemas éticos como la eliminación de sesgos y discriminación, la protección de la privacidad y seguridad de datos, transparencia y responsabilidad en la toma de decisiones, y su impacto en el empleo y la economía. Es importante abordar estos dilemas de manera responsable para asegurar que la IA se use de manera justa y ética.**
+
+</aside>
+
+## ♠️Data4Good
+
+### Políticas públicas
+
+1. Atención del Estado a una necesidad social.
+2. Implementación a partir de normas, instituciones, prestaciones y servicios.
+3. Ayudan a alcanzar principios éticos e igualdad de derechos.
+
+### Fuente de datos para generación de políticas públicas
+
+- Academia 🏫
+- Industria 🏭
+- Ciudadanía 🙋🏽
+- Gobierno 💼
+- Sociedad civil organizada 👥
+
+### Composición ideal de una política pública
+
+- **Políticas públicas cuantitativas:** medir los resultados y su impacto.
+- **Visualización y diseño:** cómo se implementó y comunicó (web, folleto, etc.)
+- **Científicos sociales:** expertos en generar el cambio.
+- **Métodos computacionales y algoritmos:** para que se siga perfeccionando la política
+
+### Data4Good
+
+<aside>
+✨ Uso de los datos para fomentar el bien público y maximizar el bienestar.
+
+</aside>
+
+### Cambios necesarios
+
+1. Mayor regulación de recolección y uso de datos.
+2. Más cuestionamiento ético.
+3. Colaboración entre sector privado y público (i.e. data sharing).
+4. Robustecer la creación y validación de políticas públicas numéricamente.
+5. Nuevos roles técnicos.
+
+## 🔮¿Qué nos depara el futuro con IA?
+
+### Imposible saber 
+
+> “*Predecir una nueva invención requiere definir lo que esa nueva invención es, cosa que solo sucedería en el futuro”.*
+> 
+> 
+> — Argumento de Karl Popper sobre la imposibilidad de predecir invenciones
+> 
+
+### La paradoja de la rueda
+
+Si nunca has visto una ♿ y no sabes lo que es un rueda 🎡, entonces cómo puedes predecir que alguien la va a construir en los próximos años.  Por tanto: al intentar describir lo que es la rueda, acabo de inventarla (o cimentar parcialmente su creación).
+
+### La mejor forma de predecir el futuro es creándolo (actuar > pensar)
+
+<aside>
+✨ Lo importante no es predecir qué cambios habrá en el futuro, sino qué podemos hacer hoy para aprovechar esas herramientas. De esta manera estaremos listos para lo que venga y podremos construir un futuro mejor.
+
+</aside>
+
+El futuro es incierto y nadie sabe con exactitud lo que sucederá, pero es seguro que se vienen cambios a la altura de las revoluciones industriales. Para estar preparados, podemos seguir aprendiendo y creando cosas con inteligencia artificial para ver a dónde llegamos. Además, podemos invertir en educación y tecnología para asegurarnos de que estamos preparados para los trabajos del futuro y cualquier cambio que pueda ocurrir… ¡Buen viaje hacia el futuro!
+
+
 
 
