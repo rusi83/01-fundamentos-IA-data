@@ -270,7 +270,7 @@ Es como enseñarle a un perro a hacer trucos a cambio de golosinas: cuando hace 
 
 ### Otros conceptos
 
-- **NLP (Natural Learning Processing):** Comprender el lenguaje.
+- **NLP (Natural Language Processing):** Comprender el lenguaje.
 - **Visión artificial:** Es enseñar a un modelo de inteligencia artifial a ver.
 - **Robótica:** Asociación de movimientos para automatizar una tarea.
 - **IA generativa:** Se clasifica lo que ya existe y puedo generar algo nuevo.
